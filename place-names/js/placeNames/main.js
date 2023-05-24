@@ -11,8 +11,9 @@ for (const name of names) {
   console.log(name);
 }
 
-console.log()
+console.log('');
 
+console.log("'The' Place Names")
 names.filter((name) => {
   if (name.startsWith("The")) {
     console.log(name)
